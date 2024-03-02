@@ -1,9 +1,4 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  creationTimestamp: null
-  name: foo-baz
-  annotations:
-    argocd.argoproj.io/sync-wave: "2"
-spec: {}
-status: {}
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- foo-baz.yaml
