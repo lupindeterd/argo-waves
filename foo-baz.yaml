@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   creationTimestamp: null
-  name: foo-bar
+  name: foo-baz
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 spec: {}
